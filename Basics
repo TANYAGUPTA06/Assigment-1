@@ -1,1 +1,47 @@
-Q-1 
+Q-1 Q1. How can you output “Physics” and “Wallah” in two different lines in C++?
+ans 1- 
+#include<iostream>
+using namespace std;
+int main(){
+cout<<"Physics"<<endl<<"Wallah";
+
+}
+
+Q2. Write a program to print 10 using 2 positive numbers less than 6 in C++ as output.
+Ans2-
+#include<iostream>
+using namespace std;
+int main(){
+cout<<5+5;
+
+}
+
+Q3. How much space does the following data types take?
+i) int - 12 bytes
+ii) boolen -  A boolean value (either True or False) is stored as an integer internally. It usually takes 12 bytes of memory as well.
+iii) float - decimal number store 16 bytes
+
+Q4. What is the output of this program?
+int main() {
+int a = 4;
+int b = 5;
+a++, b--;
+cout << ++a << " " << b--;
+}
+
+Ans3 - 5 4
+
+Q5. Write a program to find the circumference of a circle with radius 10 in C++.
+Ans5 - 
+#include <iostream>
+using namespace std;
+int main() {
+int radius;
+cin>>radius;
+float area = 2*3.14*radius;
+cout << area<<endl;
+return 0;
+}
+
+Q6. How many of these can be a variable name ?
+Ans6 - FLOATÚ
